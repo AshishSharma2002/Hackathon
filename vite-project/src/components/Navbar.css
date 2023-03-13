@@ -1,0 +1,24 @@
+
+
+.navbar{
+    overflow: hidden;   
+    background-color: rgb(93, 208, 100);
+    opacity: 0.95;
+}
+
+.nav-item {
+    padding: 6%;  
+    font-size: 18px;
+    
+}
+.nav-item a{
+    color: white;
+}
+.sticky{
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+.d-flex{
+    margin-left: 1400px;
+}
