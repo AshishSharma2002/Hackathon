@@ -1,3 +1,62 @@
-.background-img{
-    /* width:60%; */
+@import url("https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900");
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,400;1,500&display=swap');
+
+.aftnav {
+    margin: 2%;
+
+}
+
+/* ANIMATION TO TEXT */
+
+
+.animate-charcter {
+    text-transform: uppercase;
+    background-image: linear-gradient(-225deg,
+            #231557 50%,
+            #198754 20%,
+            #44107a 29%,
+            #ff1361 67%,
+            #fff800 100%);
+    background-size: auto auto;
+    background-clip: border-box;
+    background-size: 200% auto;
+    color: #fff;
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    /* text-fill-color: transparent; */
+    animation: textclip 2s linear infinite;
+    display: inline-block;
+}
+@keyframes textclip {
+    to {
+        background-position: 200% center;
+    }
+}
+
+
+
+
+
+.background-img {
+    width: 100%;
+    height: 100%;
+    /* margin-left: 3%; */
+    border-radius: 30px;
+}
+
+
+
+
+
+.col h2 {
+    font-size: 5rem;
+    line-height: 1.5;
+    color: black;
+    font-family: 'Rubik', sans-serif;
+
+}
+
+.col h2:hover {
+    color: #129768;
 }
