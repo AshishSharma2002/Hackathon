@@ -1,24 +1,37 @@
-
+ 
 
 .navbar{
     overflow: hidden;   
-    background-color: rgb(93, 208, 100);
+    background-color: #00bfa5;
     opacity: 0.95;
-}
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+    border-bottom: 3px solid #00bfa5;
 
-.nav-item {
-    padding: 6%;  
-    font-size: 18px;
-    
 }
-.nav-item a{
-    color: white;
+.navbar-brand{
+    margin-left: 1%;
+    font-size: 35px;
+    color: black;
 }
-.sticky{
-    position: fixed;
-    top: 0;
-    width: 100%;
+.navbar-brand:hover{
+    color: #455a64;     
 }
-.d-flex{
-    margin-left: 1400px;
+.nav-links{
+    padding-left: 5%;
+}
+ .nav-link{
+    font-size: 25px;
+} 
+.login a{
+    text-decoration: none;
+    color: black;
+    font-size: 25px;
+    padding-left: 5%;
+}
+.login a:hover{
+    color:#455a64;
+}
+.logo{
+    width: 20%;
+    margin-left: 80%;
 }
