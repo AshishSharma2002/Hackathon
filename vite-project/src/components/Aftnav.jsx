@@ -1,11 +1,11 @@
 import React from 'react'
 import './Aftnav2.css'
 import 'bootstrap/dist/css/bootstrap.min.css';
-import image4 from '../assets/img1.jpg'
-import image5 from '../assets/img2.jpg'
-import image6 from '../assets/img3.jfif'
-import image7 from '../assets/img4.jpg'
-import image8 from '../assets/Build-An-Organic-E-commerce-Platform.png'
+// import image4 from '../assets/img1.jpg'
+// import image5 from '../assets/img2.jpg'
+// import image6 from '../assets/img3.jfif'
+// import image7 from '../assets/img4.jpg'
+import image13 from '../assets/img5.png'
 const Aftnav = () => {
   return (
     <div>
@@ -20,7 +20,7 @@ const Aftnav = () => {
               <img src={image5} alt="" />
               <img src={image6} alt="" />
               <img src={image7} alt="" /> */}
-              <img src="image8" alt=""  className=''/>
+              <img src="image13" alt="" className='aftnav-img'/>
             </div>
           </div>
         </div>
