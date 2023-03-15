@@ -15,7 +15,7 @@ const App = () => {
     
 
       <Aftnav></Aftnav>
-      <Middle></Middle>
+      {/* <Middle></Middle> */}
 
     </div>
 
