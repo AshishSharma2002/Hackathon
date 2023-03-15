@@ -5,7 +5,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 // import image5 from '../assets/img2.jpg'
 // import image6 from '../assets/img3.jfif'
 // import image7 from '../assets/img4.jpg'
-import image13 from '../assets/img5.png'
+import image from '../assets/aftnav-img.png'
 const Aftnav = () => {
   return (
     <div>
@@ -20,7 +20,7 @@ const Aftnav = () => {
               <img src={image5} alt="" />
               <img src={image6} alt="" />
               <img src={image7} alt="" /> */}
-              <img src="image13" alt="" className='aftnav-img'/>
+              <img src="image" alt="" className='aftnav-img'/>
             </div>
           </div>
         </div>
