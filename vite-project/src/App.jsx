@@ -3,6 +3,7 @@ import './App.css'
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Navbar from './components/Navbar'
 import Aftnav from './components/Aftnav'
+import Middlesection from './components/Middlesection'
 
 
 
@@ -15,7 +16,7 @@ const App = () => {
     
 
       <Aftnav></Aftnav>
-      {/* <Middle></Middle> */}
+      <Middlesection></Middlesection>
 
     </div>
 
