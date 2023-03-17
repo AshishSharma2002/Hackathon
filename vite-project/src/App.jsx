@@ -1,27 +1,28 @@
 import React from 'react'
+import { BrowserRouter, Routes, Route } from 'react-router-dom'
 import './App.css'
 import 'bootstrap/dist/css/bootstrap.min.css';
-import Navbar from './components/Navbar'
-import Aftnav from './components/Aftnav'
-import Middlesection from './components/Middlesection'
-import Carousal from './components/Carousal'
+import Navbar from './components/Navbar/Navbar'
+
+import Home from './components/Home/Home';
+import Buy from './components/Buy/Buy';
+import Sell from './components/Sell/Sell';
 
 
 
 const App = () => {
   return (
-    <div className='test-class'>
-      <Navbar></Navbar>
-      <br/><br/><br/>
-      <br/><br/><br/>
-    
+    <BrowserRouter>
+      <Navbar />
+      <Routes>
+        <Route path='/' element={<Home/>} />
+        <Route path='/buy' element={<Buy/>} />
+        <Route path='/sell' element={<Sell/>} />
 
-      <Aftnav></Aftnav>
-      <Middlesection></Middlesection>
-      
-      <Carousal></Carousal>
+      </Routes>
 
-    </div>
+     
+    </BrowserRouter>
 
   )
 }

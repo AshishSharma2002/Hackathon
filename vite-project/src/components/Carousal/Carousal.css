@@ -1,7 +1,7 @@
 /* @import url('https://fonts.googleapis.com/css2?family=Kanit&display=swap');    LESS BOLD */
 @import url('https://fonts.googleapis.com/css2?family=Kanit:wght@400;500&display=swap');
 .Carousal-main{
-    height: 130vh;
+    height: 120vh;
 }
 
 .carousel-heading{
@@ -9,7 +9,7 @@
     color: black;
     text-align: center;
     padding-bottom: 5%;
-    padding-top: 5%;
+    padding-top: 2%
     
 }
 .carousel-heading h1 u{
@@ -21,7 +21,7 @@
 
 .carousel{
     width: 60%;   
-    margin-left: 22%; 
+    margin-left: 21%; 
     
 }
 

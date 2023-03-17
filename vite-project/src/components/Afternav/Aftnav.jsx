@@ -2,7 +2,7 @@ import React from 'react'
 import './Aftnav2.css'
 import 'bootstrap/dist/css/bootstrap.min.css';
 
-import image8 from '../assets/main.png'
+import image8 from '../../assets/main.png'
 
 
 const Aftnav = () => {

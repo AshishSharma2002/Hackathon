@@ -1,8 +1,8 @@
 import React from 'react'
 import './Carousal.css'
-import picture from '../components/img2.jpg'
-import picture2 from '../components/img1.jpg'
-import picture3 from '../components/img4.jpg'
+import picture from '../img2.jpg'
+import picture2 from '../../assets/img1.jpg'
+import picture3 from '../../assets/img4.jpg'
 
 const Carousal = () => {
     return (

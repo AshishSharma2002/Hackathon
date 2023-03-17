@@ -3,7 +3,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Kanit:wght@400;500&display=swap');
 
 
-
+.shadow{
+    box-shadow: 0 10px 10px #00000009, 0 50px 40px #00000012;
+    margin: 3%;
+}
 .main-heading{
     text-align: center;
     margin-top: 2%;
@@ -29,9 +32,12 @@
     font-family: 'Varela', sans-serif;
     font-size: 24px;
     margin-top: 2%;
-     color: #ff1361;
-     
+    color: #ff1361;  
 }
+.list-head:hover{
+    font-size: 30px;
+}
+
 .list-item{
     font-size: 22px;
     font-family: 'Varela', sans-serif;
@@ -41,6 +47,7 @@
 }
 .list-item:hover{
     color: #231557;
+    font-size: 26px;
 }
 
 

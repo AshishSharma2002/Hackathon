@@ -1,8 +1,9 @@
 import React from 'react'
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './Navbar.css'
-import image1 from '../assets/signin.png';
-import image2 from '../assets/logo.jpeg';
+import image1 from '../../assets/signin.png';
+import image2 from '../../assets/logo.jpeg';
+import { Link } from 'react-router-dom';
 
 const Navbar = () => {
     return (
@@ -11,7 +12,7 @@ const Navbar = () => {
             <nav class="navbar navbar-expand-lg bg-body-tertiary fixed-top">
                 <div class="container-fluid">
                     {/* <div className='nav-logo'><img src={image2} alt=""  className='logo'/></div> */}
-                    <a class="navbar-brand" href="#"><b>Digital Farmer</b></a>
+                    <Link class="navbar-brand" to='/'><b>Digital Farmer</b></Link>
 
                     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                         <span class="navbar-toggler-icon"></span>
@@ -22,11 +23,11 @@ const Navbar = () => {
                                 <a class="nav-link p-3" aria-current="page" href="#">Home</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link p-3" href="#">Sellers</a>
+                                <Link class="nav-link p-3" to='/sell'>Sellers</Link>
                             </li>
 
                             <li class="nav-item">
-                                <a class="nav-link p-3" href="#">Buyers</a>
+                                <Link class="nav-link p-3" to='/buy'>Buyers</Link>
                             </li>
                         </ul>
                         <div class='row login'>

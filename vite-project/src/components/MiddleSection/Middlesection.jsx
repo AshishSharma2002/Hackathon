@@ -1,9 +1,9 @@
 import React from 'react'
 import './Middlesection.css'
-import image4 from '../assets/img1.jpg'
-import image5 from '../assets/img2.jpg'
-import image6 from '../assets/img3.jfif'
-import image7 from '../assets/img4.jpg'
+import image4 from '../../assets/img1.jpg'
+import image5 from '../../assets/img2.jpg'
+import image6 from '../../assets/img3.jfif'
+import image7 from '../../assets/img4.jpg'
 const Middlesection = () => {
   return (
     <div>
@@ -16,7 +16,7 @@ const Middlesection = () => {
             <img src={image7} alt="" />
           </div>
           <hr />
-          <div className='row'>
+          <div className='row shadow'>
             <div className=' col col-lg-12 '>
               <div className='main-heading'>
                 <div className='flicker'><h1><u>Why to choose E-commerce platform ?</u></h1></div>
