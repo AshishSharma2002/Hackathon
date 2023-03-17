@@ -1,6 +1,6 @@
 import React from 'react'
 import './carousal.css'
-import img from '../assets/components/background.jpg'
+import picture from '.components/img2.jpg'
 
 const Carousal = () => {
     return (
@@ -13,7 +13,7 @@ const Carousal = () => {
                 </div>
                 <div class="carousel-inner">
                     <div class="carousel-item active" data-bs-interval="10000">
-                        <img src="img" class="d-block w-100" alt="..." />
+                        <img src={picture} class="d-block w-100" alt="..." />
                             <div class="carousel-caption d-none d-md-block">
                                 <h5>First slide label</h5>
                                 <p>Some representative placeholder content for the first slide.</p>
