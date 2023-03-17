@@ -4,6 +4,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import Navbar from './components/Navbar'
 import Aftnav from './components/Aftnav'
 import Middlesection from './components/Middlesection'
+import Carousal from './components/Carousal'
 
 
 
@@ -17,6 +18,8 @@ const App = () => {
 
       <Aftnav></Aftnav>
       <Middlesection></Middlesection>
+      <br/><br/><br/>
+      <Carousal></Carousal>
 
     </div>
 
