@@ -3,6 +3,7 @@
  .navbar {
      overflow: hidden;
      background-color: #71f0b5;
+     /* background-color: #198754; */
      opacity: 0.95;
      box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
      border-bottom: 3px solid #71f0b5;
@@ -37,7 +38,9 @@
  .nav-link {
      font-size: 22px;
      font-family: 'Varela', sans-serif;
-
+ }
+ .nav-link:hover{
+    background-color: #1819192d;
  }
  .nav-item{
     color: rgba(0, 0, 0, 0.55);

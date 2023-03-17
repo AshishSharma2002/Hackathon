@@ -1,3 +1,40 @@
-.heading{
+@import url('https://fonts.googleapis.com/css2?family=Varela&display=swap');
+
+
+
+.main-heading{
     text-align: center;
+    margin-top: 2%;
 }
+.main-heading h1{
+    font-family: 'Varela', sans-serif;
+     color: rgba(0, 0, 0, 0.55);
+     color: #cd933b;
+     font-weight: 500px;
+     font-size: 60px;
+    
+}
+.list{
+    margin: 12%;
+    margin-top: 3%;
+}
+
+.list-head{
+    font-family: 'Varela', sans-serif;
+    font-size: 35px;
+    margin-top: 2%;
+     color: #ff1361;
+     
+}
+.list-item{
+    font-size: 25px;
+    font-family: 'Varela', sans-serif;
+    color: #231557;
+    transition: background-color 2s ease-out 100ms
+
+}
+.list-item:hover{
+    color: #8a78cc;
+}
+
+

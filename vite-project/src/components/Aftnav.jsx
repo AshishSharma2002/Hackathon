@@ -1,34 +1,29 @@
 import React from 'react'
 import './Aftnav2.css'
 import 'bootstrap/dist/css/bootstrap.min.css';
-import image4 from '../assets/img1.jpg'
-import image5 from '../assets/img2.jpg'
-import image6 from '../assets/img3.jfif'
-import image7 from '../assets/img4.jpg'
+
+import image8 from '../assets/main.png'
 
 
 const Aftnav = () => {
   return (
-    <div>
-      <div className='aftnav'>
+    <div style={{ height: '85vh' }}>
+      <div className='aftnav' style={{ height: '80vh'}}>
         <div className='container-fluid'>
           <div className='row aftnav-section'>
-            <div className=' col col-lg-8 col-sm-12 animate-charcter'>
-              <h2>How To build An E-Commerce Organic Platform That Links Farmers Directly To The Buyers ?</h2>
+            <div className=' col col-lg-6 col-sm-12 animate-charcter p-2' >
+              <h2 style={{ paddingLeft: '4%' }}>How To build An E-Commerce Organic Platform That Links Farmers Directly To The Buyers ?</h2>
             </div>
-            <div className='col col-lg-4 col-sm-12 gallery '>
-              <img src={image4} alt="" />
-              <img src={image5} alt="" />
-              <img src={image6} alt="" />
-              <img src={image7} alt="" />
-              {/* <img src="image" alt="" className='aftnav-img'/> */}
+            <div className='col col-lg-6 col-sm-12  '>
+              <img src={image8} alt="" className='aftnav-img'/>
             </div>
+            
           </div>
         </div>
       </div>
       <hr />
     </div>
-    
+
   )
 }
 
