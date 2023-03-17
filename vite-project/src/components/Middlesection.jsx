@@ -17,16 +17,16 @@ const Middlesection = () => {
           </div>
           <hr />
           <div className='row'>
-            <div className='col-lg-12'>
+            <div className=' col col-lg-12 '>
               <div className='main-heading'>
-                <div className='flicker'><h1><b>Why to choose E-commerce platform ?</b></h1></div>
+                <div className='flicker'><h1><u>Why to choose E-commerce platform ?</u></h1></div>
               </div>
 
 
 
 
             </div>
-            <div className='col-lg-12'>
+            <div className='col col-lg-12 size'>
               <div className='list'>
                 <ul typeof='circles'>
                   <h4 className='list-head'>INCREASED SALES</h4>

@@ -18,7 +18,7 @@ const App = () => {
 
       <Aftnav></Aftnav>
       <Middlesection></Middlesection>
-      <br/><br/><br/>
+      
       <Carousal></Carousal>
 
     </div>

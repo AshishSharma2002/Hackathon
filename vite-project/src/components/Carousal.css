@@ -1,6 +1,28 @@
-.carousel{
-    
-    margin: 10%;
+/* @import url('https://fonts.googleapis.com/css2?family=Kanit&display=swap');    LESS BOLD */
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@400;500&display=swap');
+.Carousal-main{
+    height: 130vh;
+}
 
+.carousel-heading{
+    font-family: 'Kanit', sans-serif;
+    color: black;
+    text-align: center;
+    padding-bottom: 5%;
+    padding-top: 5%;
     
 }
+.carousel-heading h1 u{
+    font-size: 3.5rem;
+}
+
+
+
+
+.carousel{
+    width: 60%;   
+    margin-left: 22%; 
+    
+}
+
+
