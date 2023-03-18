@@ -8,6 +8,15 @@
 
 
 .benefits p{
-    font-size: 24px;
+    font-size: 22px;
     font-family: 'Varela', sans-serif;
+}
+.benefits p a{
+  text-decoration: none;
+}
+.benefits h2 {
+  /* padding: 5%; */
+  text-align: center;
+  margin: 5%;
+  font-size: 3rem;
 }
