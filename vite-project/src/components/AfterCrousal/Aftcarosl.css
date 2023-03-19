@@ -20,3 +20,10 @@
   margin: 5%;
   font-size: 3rem;
 }
+.initiatives p  a{
+  text-decoration: none;
+  color: #ff1361;
+}
+.change-color{
+  color: #0d6efd;
+}

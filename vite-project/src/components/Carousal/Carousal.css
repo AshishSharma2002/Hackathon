@@ -16,13 +16,22 @@
     font-size: 3.5rem;
 }
 
-
-
-
 .carousel{
     width: 60%;   
     margin-left: 21%; 
     
+}
+.news1{
+    height: 800px;
+}
+.news2{
+    height: 800px;
+}
+.news3{
+    height: 800px;
+}
+.news4{
+    height: 800px;
 }
 
 
