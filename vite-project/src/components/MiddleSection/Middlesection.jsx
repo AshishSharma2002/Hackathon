@@ -19,7 +19,7 @@ const Middlesection = () => {
           <div className='row shadow'>
             <div className=' col col-lg-12 '>
               <div className='main-heading'>
-                <div className='flicker'><h1><u>Why to choose E-commerce platform ?</u></h1></div>
+                <div className='flicker'><h1>Why to choose E-commerce platform ?</h1></div>
               </div>
 
 

@@ -1,19 +1,22 @@
-/* @import url('https://fonts.googleapis.com/css2?family=Kanit&display=swap');    LESS BOLD */
-@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@400;500&display=swap');
+    
+@import url('https://fonts.googleapis.com/css2?family=Kanit&display=swap');
+/* @import url('https://fonts.googleapis.com/css2?family=Kanit:wght@400;500&display=swap'); */
 .Carousal-main{
     height: 120vh;
 }
 
 .carousel-heading{
-    font-family: 'Kanit', sans-serif;
+    /* font-family: 'Kanit', sans-serif; */
     color: black;
     text-align: center;
     padding-bottom: 5%;
-    padding-top: 2%
+    padding-top: 2%;
+    text-decoration: none;
+    text-transform: uppercase;
     
 }
-.carousel-heading h1 u{
-    font-size: 3.5rem;
+.carousel-heading h1 {
+    font-size: 3rem;
 }
 
 .carousel{

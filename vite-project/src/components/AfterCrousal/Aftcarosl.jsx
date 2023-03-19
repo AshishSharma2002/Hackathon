@@ -1,6 +1,6 @@
 import React from 'react'
 import './Aftcarosl.css'
-import flowchart from '../assets/Screenshot(22).png'
+import flowchart from '../../assets/flowchart.png';
 
 const Aftcarosl = () => {
     return (
@@ -11,7 +11,7 @@ const Aftcarosl = () => {
 
                     Digital technologies, such as artificial intelligence  (AI) and machine learning (ML), remote sensing, big data, block chain and IoT, are transforming agricultural value chains and modernizing operations. While several countries, such as the Netherlands, the US, Australia and Israel, have successfully adopted and exploited digital solutions to revolutionise agriculture, their adoption in India is still in its infancy. The future adoption of digital agriculture in India is anticipated to nurture under the Public-Private Partnership (PPP) mode.
                 </p>
-                <h2><u>Current Initiatives under Digital Agriculture in India</u></h2>
+                <h2>Current Initiatives under Digital Agriculture in India</h2>
                 <div className='initiatives'>
 
                     <p>
@@ -33,8 +33,34 @@ const Aftcarosl = () => {
                         In June 2021, The Ministry of Agriculture and Farmers Welfare signed an MoU with Microsoft to run a pilot programme for 100 villages in 6 states. Under the MoU, Microsoft will create a ‘Unified Farmer Services Interface’ through its cloud computing services. This is a major part of the ministry’s future plan to create ‘AgriStack’ - a unified platform to provide end-to-end services across the agriculture food value chain to farmers. For this the government is planning to create unique farmer IDs for farmers across the country to integrate it with various <a href="" className='change-color'>government schemes</a> and create digital agricultural ecosystems. <br /> <br />
                     </p>
                     <div className='flowchart'>
-                        <h1>How our website works ?</h1>
-                        <img src={flowchart} alt="" />
+                        <div className='flowchart-heading'>
+                            <h1>How our website works ?</h1>
+                        </div>
+                        <div className='flowchart-img'>
+                            <img src={flowchart} alt="" />
+                            <h5><i>Flow of our website</i></h5>
+                        </div>
+                    </div>
+                    <div className='implementation'>
+                        <div className='implementation-heading'>
+                            <h1>Implemenatation of Digital Agriculture in India</h1>
+                        </div>
+                        <div className='implementation-content'>
+                            <p>
+                                The main factor behind the gradual acceptance of digital farming in India is the prominence of segregated small-holder farms in the country, this complicates data gathering. Additionally, limited penetration of mechanisation tools and frequent natural calamities, like droughts, floods and excessive monsoon rains, have negatively impacted the deployment of digital solutions in the sector. Thus, a customised approach would be needed to implement digital agriculture to a typical Indian small farm, this can be later be scaled up and made available to many Indian farms.Following measures could be implemented to make digital agriculture a success in India: -
+                                <br /><br />
+
+                                <a href="">Low cost technology</a>: - The average annual income of an Indian farmer is US$ 1,000. This low income explains the precarious financialcircumstances in which a typical farmer operates in India. Thus, lowering the cost of technology will help.
+                                <br /><br />
+
+                                <a href="">Portable hardware</a>: - As typical Indian farms are small, plug and play hardware has a better opportunity in the Indian market. Also, agricultural land leasing is widely prevalent under various farming arrangements, therefore a farmer farming on a specific plot of land may move to another farm plot next season. In such scenarios, investing in portable equipment is better for farmers.
+                                <br /><br />
+                                <a href="">Renting and sharing platforms for agriculture equipment and machinery</a>: - Owing to both constrained financial resources and small farm plots, opportunity exists for digital platforms that offer equipment renting and sharing services instead of outright purchases. A few agritech start-ups like Farmkart (rent4farm), EM3 AgriServices and Trringo, are already providing equipment rental services.
+                                <br /><br />
+                                <a href="">Academic support</a>: - The local agricultural organisation and academic institutes regularly interact with farmers through various locally conducted programs and government initiatives. Training facilities provided by various academic institutes and agricultural organisations will improve digital adoption among farmers.
+                            </p>
+                        </div>
+
                     </div>
 
                 </div>

@@ -17,7 +17,7 @@ const Carousal = () => {
     return (
         <div className='Carousal-main'>
             <div className='carousel-heading'>
-                <h1><u>News    Of    The    Day</u></h1>
+                <h1>News    Of    The    Day</h1>
             </div>
             <div id="carouselExampleInterval" class="carousel slide carousel-fade" data-bs-ride="carousel">
                 <div class="carousel-inner">

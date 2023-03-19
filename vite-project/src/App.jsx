@@ -7,6 +7,7 @@ import Navbar from './components/Navbar/Navbar'
 import Home from './components/Home/Home';
 import Buy from './components/Buy/Buy';
 import Sell from './components/Sell/Sell';
+import Footer from './components/AfterCrousal/Footer/Footer';
 
 
 
@@ -20,6 +21,7 @@ const App = () => {
         <Route path='/sell' element={<Sell/>} />
 
       </Routes>
+      <Footer/>
 
      
     </BrowserRouter>
